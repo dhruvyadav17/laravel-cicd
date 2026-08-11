@@ -6,9 +6,9 @@ class ProductController extends Controller
 {
     public function index()
     {
-        return response()->json([
-            'status' => true,
-            'message' => 'Products API working'
-        ]);
+       return response()->json([
+    'status' => true,
+    'message' => 'Products API working'
+]);
     }
 }
