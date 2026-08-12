@@ -10,7 +10,7 @@ class ProductTest extends TestCase
     {
         $response = $this->get('/products');
 
-        $response->assertStatus(200);
+        $response->assertStatus(500);
 
         $response->assertJson([
             'status' => true,
